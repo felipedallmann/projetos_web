@@ -1,0 +1,110 @@
+/* Limpar formatações padrão */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #1d1d1d;
+}
+
+/* layout */
+
+#cabecalho{
+    background-color: #1f85d8;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#logo, #area-menu{
+    padding: 10px;
+}
+
+
+
+/* formatação menus */
+
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: white;
+
+}
+
+#area-cabecalho  a:hover{
+    color: #1f85d8;
+    background: white;
+}
+
+#area-cabecalho a{
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 1.2em;
+}
+
+
+/* formatação geral */
+h1{
+    color: #3f3a3a;
+    font-size: 2.8em;
+}
+
+h2{
+    font-size: 1.5em;
+    color:#1f85d8;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    color: #f4f4f4;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.branco{
+    color: rgb(224, 222, 222);
+}
+
+
+
+/* area principal */
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background: #161515;
+
+    padding: 15px;
+}
+
+/* areas dentro da area principal */
+#area-postagens{
+    width: 660px;
+    float: left;
+    background-color: #1d1d1d;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+    background-color: #1d1d1d;
+
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(24, 22, 22);
+}
+
+/* cor das areas da principal  */
+
+#area-postagens, #area-lateral{
+    
+}
